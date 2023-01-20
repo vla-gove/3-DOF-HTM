@@ -10,7 +10,7 @@ typedef struct {
 } Manipulator;
 
 
-// computating a joint specific homogeneous transformation matrix
+// computing a joint specific homogeneous transformation matrix
 void joint_transform(double theta, double d, double a, double alpha, double* T) {
 
     // computing transformation matrix elements
